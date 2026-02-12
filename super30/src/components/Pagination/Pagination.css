@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.pagination-container {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #000;
+}
+
+.product-image {
+    width: 150px;
+    height: 150px;
+}
+
+.page-numbers-cotainer {
+    margin: 5px;
+    padding: 5px;
+}
+
+.page-number {
+    padding: 5px;
+    border: 1px solid #ddd;
+    margin: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.active-page {
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.prev-button, .next-button {
+    padding: 4px;
+}
+
+.prev-button:disabled,
+.next-button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  background-color: #ccc;
+}

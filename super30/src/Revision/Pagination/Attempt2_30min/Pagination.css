@@ -1,0 +1,32 @@
+
+
+.pagination-container{
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-card-container {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    margin: 10px;
+}
+
+.product-card-img {
+    width: 130px;
+    height: 130px;
+}
+
+.product-card-title{
+    display: flex;
+}
+
+.activePage {
+    background-color: #000;
+    color :#fff;
+}
